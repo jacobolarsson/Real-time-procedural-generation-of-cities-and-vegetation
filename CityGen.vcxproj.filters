@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Window\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader\Shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LRUCache\LRUCache.cpp">
+      <Filter>LRUCache</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lsystem\Lsystem.cpp">
+      <Filter>Lsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shapes\Shapes.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Common.h" />
+    <ClInclude Include="src\Window\Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\Shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LRUCache\LRUCache.h">
+      <Filter>LRUCache</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lsystem\Lsystem.h">
+      <Filter>Lsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shapes\Shapes.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Window">
+      <UniqueIdentifier>{83dde89c-65dc-423b-a506-6686017e1bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{b3fb595e-1dbd-47d8-aacb-c2477deeb26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{f54319f6-c2a7-4a15-af68-08b5f0ef9a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{81cce5d3-84bf-4a8c-b05c-b23f12b93c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{869fdc5b-fe3c-4ebb-8b5a-277bab6cffcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{97ace3f6-bd60-4425-a5c1-885faab6f0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LRUCache">
+      <UniqueIdentifier>{371e3b23-b95a-44cf-b4d2-56b69e074066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lsystem">
+      <UniqueIdentifier>{e482a079-91b1-4505-b78d-d1f6ecf467e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{b10f462a-283f-4ac1-a07a-3f2728b9f2e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
